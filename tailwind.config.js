@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: '"Inter", serif',
+        inter: '"Inter", serif',
       },
       colors: {
         background: "var(--background)",
