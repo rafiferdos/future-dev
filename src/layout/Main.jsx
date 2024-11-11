@@ -7,7 +7,7 @@ const Main = () => {
 
       <NavBar />
       {/* Main Content */}
-      <div className="mx-auto max-w-7xl px-7 lg:px-2 mt-10 mb-10 min-h-[calc(100vh-432px)]">
+      <div className="mx-auto max-w-[1332px] px-7 lg:px-2 mt-10 mb-10 min-h-[calc(100vh-432px)]">
         <Outlet />
       </div>
     </div>
