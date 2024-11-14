@@ -29,7 +29,7 @@ const Banner = () => {
       {smallBan ? (
         <div className="hero bg-[#1313130D] mb-20 h-[550px] lg:h-[650px] rounded-3xl">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src={banner1} className="rounded-lg " />
+            <img src={banner1} className="rounded-lg max-w-sm " />
             <div className="max-w-xl">
               <h1 className="md:text-2xl mb-2 lg:text-5xl playfair-display font-bold text-[#000000] lg:leading-[60px] lg:mb-10">
                 Empower Your Child's Future with Live Coding and Robotics
