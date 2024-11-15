@@ -53,7 +53,6 @@ const Card1 = ({ user }) => {
                 <StarIcon />
               </div>
             </div>
-            {/* <Typography color="blue-gray">Sales Executive</Typography> */}
           </div>
         </CardHeader>
         <CardBody className="mb-6 p-0">

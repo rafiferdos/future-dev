@@ -75,7 +75,6 @@ const Educators = () => {
                      <span>{user?.designation}</span>
                    </div>
 
-                   <ul></ul>
                  </div>
                  <div className="flex  text-[#ffffff] justify-center pt-2 space-x-4 align-center">
                    <a
