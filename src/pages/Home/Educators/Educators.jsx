@@ -10,7 +10,7 @@ import { MdEmail } from "react-icons/md";
 
 const Educators = () => {
  return (
-   <div className="mt-24">
+   <div className="mt-96 md:mt-24">
      <div>
        <small className="text-primary">The Team</small>
        <h2 className="mb-5 mt-2 font-extrabold text-primary text-5xl">
@@ -51,8 +51,8 @@ const Educators = () => {
        className="mySwiper"
      >
        {educatorsData?.length > 0 &&
-         educatorsData?.map((user) => (
-           <SwiperSlide>
+         educatorsData?.map((user,index) => (
+           <SwiperSlide key={index}>
              <div className="flex flex-col bg-primary text-[#ffffff] border-2 w-full justify-center mx-auto p-6 shadow-md rounded-xl sm:px-12">
                <img
                  src={user?.imageURL}
